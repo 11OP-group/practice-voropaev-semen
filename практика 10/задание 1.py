@@ -1,0 +1,8 @@
+while True:
+    pin = int(input("Введите код: "))
+
+    if pin == 4590:
+        print("Доступ разрешен")
+        break
+    else:
+        print("Ошибка. Попробуйте еще раз")
